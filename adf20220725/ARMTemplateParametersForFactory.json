@@ -4,9 +4,6 @@
 	"parameters": {
 		"factoryName": {
 			"value": "adf20220725"
-		},
-		"ls_blob_connection_connectionString": {
-			"value": ""
 		}
 	}
 }
