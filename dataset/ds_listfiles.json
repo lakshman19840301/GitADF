@@ -1,0 +1,44 @@
+{
+	"name": "ds_listfiles",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_blob_con_AKV",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "ListOfFiles.csv",
+				"container": "input"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "No",
+				"type": "String"
+			},
+			{
+				"name": "FullURL",
+				"type": "String"
+			},
+			{
+				"name": "BaseURL",
+				"type": "String"
+			},
+			{
+				"name": "SourceRelativeURL",
+				"type": "String"
+			},
+			{
+				"name": "FileName",
+				"type": "String"
+			}
+		]
+	}
+}
