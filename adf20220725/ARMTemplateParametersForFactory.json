@@ -4,6 +4,15 @@
 	"parameters": {
 		"factoryName": {
 			"value": "adf20220725"
+		},
+		"ls_blob_connection_connectionString": {
+			"value": ""
+		},
+		"ls_akv_properties_typeProperties_baseUrl": {
+			"value": "https://adfvaultkey.vault.azure.net/"
+		},
+		"ls_blob_con_AKV_properties_typeProperties_connectionString_secretName": {
+			"value": "storagesecretname"
 		}
 	}
 }
